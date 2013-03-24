@@ -5,7 +5,7 @@
    "version": "0.1",
    "manifest_version": 2,
 
-   "description": "",
+   "description": "Removes all oncopy, ondrag, ondrop and onpaste attributes from input fields and textareas.",
    "icons": {
       "128": "icon_128.png",
       "48": "icon_48.png",
