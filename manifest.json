@@ -1,0 +1,25 @@
+{
+   "manifest_version": 2,
+
+   "name": "Unblock Clipboard Interaction in Forms",
+   "version": "0.1",
+   "manifest_version": 2,
+
+   "description": "",
+   "icons": {
+      "128": "icon_128.png",
+      "48": "icon_48.png",
+      "32": "icon_16.png",
+      "16": "icon_16.png"
+   },
+   "default_locale": "en",
+
+   "content_scripts": [ {
+      "js": [ "unblockClipboardInteraction.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+
+   "key": "",
+   "update_url": "http://clients2.google.com/service/update2/crx"
+}
