@@ -5,13 +5,12 @@
    "version": "0.1",
    "manifest_version": 2,
 
-   "description": "Removes all oncopy, ondrag, ondrop and onpaste attributes from input fields and textareas.",
+   "description": "Changes all onpaste attributes from input fields and textareas to 'return true'.",
    "icons": {
       "128": "icon_128.png",
       "48": "icon_48.png",
       "16": "icon_16.png"
    },
-   "default_locale": "en",
 
    "content_scripts": [ {
       "js": [ "unblockClipboardInteraction.js" ],
@@ -19,6 +18,6 @@
       "run_at": "document_start"
    } ],
 
-   "key": "",
+//   "key": "",
    "update_url": "http://clients2.google.com/service/update2/crx"
 }
