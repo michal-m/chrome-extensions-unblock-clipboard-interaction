@@ -9,7 +9,6 @@
    "icons": {
       "128": "icon_128.png",
       "48": "icon_48.png",
-      "32": "icon_16.png",
       "16": "icon_16.png"
    },
    "default_locale": "en",
